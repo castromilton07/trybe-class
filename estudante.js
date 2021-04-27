@@ -22,12 +22,28 @@ estudante.endereco = {
 //delete estudante.nome;
 
 for(let key in estudante) {
-    console.log(estudante[key]);
+    //console.log(estudante[key]);
     //console.log(key, estudante[key]);
 }
 
-console.log(estudante);
+//console.log(estudante);
 //console.table(estudante);
 
 //console.log(estudante.endereco.logradouro);
 //console.log(estudante.apelidos[0]);
+
+/* ------------------------------------------------ */
+// FUNÇÕES
+
+function trybe(estudanteTrybe) {
+    let pessoaDesenvolvedora = estudanteTrybe;
+
+    pessoaDesenvolvedora.hardSkills = 10;
+    pessoaDesenvolvedora.softSkills = 10;
+    pessoaDesenvolvedora.carreiraSkills = 10;
+    pessoaDesenvolvedora.trybe = true;
+
+    return pessoaDesenvolvedora;
+}
+
+console.log(trybe(estudante));
