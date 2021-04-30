@@ -1,7 +1,7 @@
 # **Trybe Live Class Exercises Repository** :rocket:
 
 ## _Description:_
-#### Repository created to store the examples presented in the live classes during the WEB Development training at Trybe.
+#### Repository created to store the examples presented in the live classes during the Web Development training at Trybe.
 
 ## _User info:_ :man:
 ### Student Person :green_heart:
