@@ -1,8 +1,8 @@
 const pizzas= [
     { sabor: 'Frango com Catupiry', pedidos: 99, status: '' },
     { sabor: 'Marguerita', pedidos: 75, status: '' },
-    { sabor: 'Frango com Catupiry', pedidos: 70, status: '' },
-    { sabor: 'Frango com Catupiry', pedidos: 80, status: '' },
+    { sabor: 'Gratinada', pedidos: 68, status: '' },
+    { sabor: '4 Queijos', pedidos: 80, status: '' },
 ];
 
 const verificaPizza = 
