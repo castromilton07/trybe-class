@@ -49,6 +49,6 @@ const filter = (array, callback) => {
     }
   }
   return newArray;
-}
+};
 
 // console.log(filter(numbers, (number) => number <= 2));
