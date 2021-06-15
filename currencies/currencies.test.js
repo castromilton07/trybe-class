@@ -94,8 +94,18 @@
     });
 
     test('Moedas acima de 50 - Async/Await', async () => {
+      expect.assertions(1);
       const data = await filterByValue(50);
       expect(data).toEqual(['Dram armênio']);
+    });
+
+    test('Moedas acima de 1000 - Async/Await', async () => {
+      expect.assertions(1);
+      try {
+        await filterByValue(1000);
+      } catch(error) {
+        expect(error).toBe('Nenhuma moeda encontrada.');
+      }      
     });
 
   });
