@@ -1,0 +1,23 @@
+{
+  "name": "trybe-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castromilton07/trybe-class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castromilton07/trybe-class/issues"
+  },
+  "homepage": "https://github.com/castromilton07/trybe-class#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
