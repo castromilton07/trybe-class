@@ -1,4 +1,4 @@
-const currencies = [
+let currencies = [
   {
     name: 'Dirham dos Emirados Árabes Unidos',
     value: 0.725915,
